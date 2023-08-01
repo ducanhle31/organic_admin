@@ -13,7 +13,7 @@ const BoxSupportInFoArray = [
   {
     image:
       "../assets/image/image_product-detail/icon/pro_policy_icon1_detail.webp",
-    nameSupport: "Đổi trả miễn phí 365 ngày bất cứ lỗi sản phẩm khi nhận hàng",
+    nameSupport: "Giao hàng tận nơi, hỗ trợ đổi trả",
   },
   {
     image:
@@ -42,13 +42,13 @@ function BoxSupportItem({ BoxSupport }) {
   );
 }
 function ProductSize({ size, setSize }) {
-  const sizeArray = ["48", "50", "52", "54", "56"];
+  const sizeArray = ["0.2kg", "0.5kg", "1kg", "1.5kg", "2kg"];
   const handleChangeSize = (sizeText) => {
     setSize(sizeText);
   };
   return (
     <div className="detailProduct__size">
-      <div className="detailProduct__size-title">SIZE:</div>
+      <div className="detailProduct__size-title">Khối lượng:</div>
       {sizeArray.map((sizeText) => {
         return (
           <span

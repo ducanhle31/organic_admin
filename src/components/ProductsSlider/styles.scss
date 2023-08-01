@@ -96,11 +96,12 @@
   border-color: #05c26a;
   border-width: 0.5px;
   border-style: solid;
-  height: 350px;
-  padding: 10px 10px;
+  height: 390px;
+
   text-align: center;
   outline: 2px solid transparent;
   transition: var(--transition-2);
+
 }
 
 .product-card:is(:hover, :focus-within) {
@@ -111,9 +112,10 @@
   position: relative;
   max-width: max-content;
   margin-inline: auto;
-  margin-block-end: 20px;
-  width: 233px;
-  height: 233px;
+  margin-block-end: 25px;
+  width: 259px;
+  height: 260px;
+      overflow: hidden;
 }
 
 
@@ -126,7 +128,7 @@
 
 .product-card:is(:hover, :focus-within) .card-banner img {
   opacity: 0.6;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .product-card .btn-wrapper {
@@ -272,8 +274,8 @@
 .discount {
   display: inline-block;
   position: absolute;
-  top: -10px;
-  left: -15px;
+  top: 0px;
+  left: -2px;
   background: #ff0000;
   border-radius: 0px 6px 6px 0px;
   color: #fff;
