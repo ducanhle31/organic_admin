@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 
 // Configure Firebase.
 export const config = {
-  apiKey: "AIzaSyC9Vc8dKJuEqq6kS8_tcZ96lULJHaOBDAM",
+ apiKey: "AIzaSyC9Vc8dKJuEqq6kS8_tcZ96lULJHaOBDAM",
   authDomain: "demooo-f13d2.firebaseapp.com",
   databaseURL: "https://demooo-f13d2-default-rtdb.firebaseio.com",
   projectId: "demooo-f13d2",

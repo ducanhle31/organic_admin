@@ -10,49 +10,26 @@ function Map() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="google-map">
-              <iframe
+                <iframe
+                  width="100%"
+                height="380px"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.6489708125914!2d105.77425111053716!3d21.08667788049617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134554a2d998dd5%3A0x2ee9ee775277367f!2zNDUgxJAuVGjhu6V5IFBoxrDGoW5nLCDEkMO0bmcgTmfhuqFjLCBU4burIExpw6ptLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1678900914283!5m2!1svi!2s"
+                  allowFullScreen=""
+                  loading="lazy"
+                />
+            {/*   <iframe
                 src="https://www.google.com/maps/d/u/0/embed?mid=12hwJDNvLEDIGGwvYVM3jHMqJkDGDmnNH&ehbc=2E312F"
                 width="100%"
                 height="380px"
-              ></iframe>
+              ></iframe> */}
             </div>
           </div>
           <div className="col-12 col-lg-6">
             <div className="shop-address">
-              <h1 className="shop-address">HỆ THỐNG CỬA HÀNG</h1>
+              <h1 className="shop-address">CỬA HÀNG</h1>
               <ul className="shop-address__list">
-                <li>1, Vluxury Chùa Bộc: Số 19, Chùa Bộc, Đống Đa, Hà Nội</li>
-                <li>2, Vluxury Cầu Giấy: Số 330 Cầu Giấy, Cầu Giấy, Hà Nội</li>
-                <li>
-                  3, Vluxury Cầu Giấy 2: 213 Cầu Giấy, Dịch Vọng, Cầu giấy, Hà
-                  Nội
-                </li>
-                <li>4, Vluxury Phố Huế: 351 Phố Huế, Hai Bà Trưng, Hà Nội</li>
-                <li>
-                  5, Vluxury Trần Phú: Số 53 Trần Phú, P.Văn Quán, Q.Hà Đông,
-                  TP.Hà Nội
-                </li>
-                <li>
-                  6, Vluxury Nguyễn Văn Cừ: Số 211 Nguyễn Văn Cừ, Long Biên, Hà
-                  Nội
-                </li>
-                <li>
-                  7, Vluxury Quang Trung - Hà Đông: Số 405 Quang Trung, Hà Đông,
-                  Hà Nội
-                </li>
-                <li>
-                  8, Vluxury Chúc Sơn: Số 7 Bắc Sơn, TT Chúc Sơn, Chương Mỹ, Hà
-                  Nội
-                </li>
-                <li>9, Vluxury Đông Anh: Số 244 Cao Lỗ, Đông Anh, Hà Nội</li>
-                <li>
-                  10, Vluxury Sơn Tây: 263 Quang Trung - tx Sơn Tây (Gần ngã ba
-                  Quang Trung sang Cầu Trì)
-                </li>
-                <li>
-                  11,Vluxury Lê Văn SỸ: 370 Lê Văn Sỹ, Phường 14, Quận 3,Thành
-                  phố Hồ Chí Minh
-                </li>
+                <li>Thụy Phương, Bắc Từ Liêm, HN</li>
+                
               </ul>
             </div>
           </div>

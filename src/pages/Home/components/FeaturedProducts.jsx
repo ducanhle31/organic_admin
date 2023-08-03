@@ -26,7 +26,7 @@ function TabItem({ tabActivity, tabName, setTapActivity }) {
 function FeaturedProducts({ checkDataChange }) {
   const dispatch = useDispatch();
   const tabs = ["Hàng mới về", "Bán chạy", "Khuyến mãi"];
-  const [tabActivity, setTapActivity] = useState("Thực phẩm tươi sống");
+  const [tabActivity, setTapActivity] = useState("Hàng mới về");
   const [collectionList, setCollectionList] = useState({});
   const [loading, setLoading] = useState(true);
   useEffect(() => {

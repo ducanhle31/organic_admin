@@ -1,4 +1,4 @@
-/* import { Input } from "@mui/material";
+ import { Input } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
@@ -212,9 +212,9 @@ function Modals({ tabsData, tabs, isChange, setIsChange }) {
 }
 
 export default Modals;
- */
 
 
+/* 
 
 
 import { Input } from "@mui/material";
@@ -430,3 +430,4 @@ function Modals({ tabsData, tabs, isChange, setIsChange }) {
 }
 
 export default Modals;
+ */
