@@ -19,7 +19,7 @@ export function ProductCartItem({ product }) {
           </div>
         </div>
 
-        <div className="product__trademark">Thương hiệu : Vluxury</div>
+        <div className="product__trademark">Thương hiệu: Đang cập nhật </div>
         <div className="product__cart-mobile">
           <div className="product__size-name-mobile">
             Size: <span className="product__size-number">{product.size}</span>

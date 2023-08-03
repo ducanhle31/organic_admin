@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { totalTimeCurrent, totalTimeEnd } from "./constanst";
-import product_31_image_03 from "./steak.-3copy3_1006x.webp";
+
 function TimeSale() {
-  const initTimeSale = totalTimeEnd(totalTimeCurrent(), 29, 2);
+  const initTimeSale = totalTimeEnd(totalTimeCurrent(), 5, 2);
   const [timeSale, setTimeSale] = useState(initTimeSale);
 
   useEffect(() => {

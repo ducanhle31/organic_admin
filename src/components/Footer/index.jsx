@@ -66,7 +66,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/shop" className="footer-a">
+                <a href="/category-product" className="footer-a">
                   Sản phẩm
                 </a>
               </li>
@@ -76,8 +76,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/contact" className="footer-a">
-                  Liên hệ
+                <a href="/map" className="footer-a">
+                  Cửa hàng
                 </a>
               </li>
             </ul>

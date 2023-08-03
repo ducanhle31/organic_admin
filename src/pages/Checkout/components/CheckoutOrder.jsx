@@ -8,7 +8,7 @@ export function CheckoutOrder({ showContent, setShowContent, total_price }) {
     <div className="checkout-order">
       <Link to="/" title="title">
         <h2 className="checkout-order__title">
-          VLUXURY - THỜI TRANG DÀNH CHO PHÁI MẠNH
+          ORGANIC Thực phẩm hữu cơ
         </h2>
       </Link>
       <div className="breadcrumbs">

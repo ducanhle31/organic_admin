@@ -9,7 +9,7 @@ export function InformationOrder({ ProductListCart, total_price }) {
     <section className="information-order">
       <Link to={"/"} title="title">
         <h2 className="information-order-title">
-          VLUXURY - THỜI TRANG DÀNH CHO PHÁI MẠNH
+        ORGANIC Thực phẩm hữu cơ 
         </h2>
       </Link>
       <div className="toggle-product-cart">
@@ -48,7 +48,7 @@ export function InformationOrder({ ProductListCart, total_price }) {
       </div>
       <div className="information-order__sum-price">
         <span>Tổng tiền</span>
-        <span>{total_price}</span>
+        <span style={{ color:"red"}}>{total_price}</span>
       </div>
     </section>
   );

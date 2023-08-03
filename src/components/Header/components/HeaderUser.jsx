@@ -43,7 +43,7 @@ export function HeaderUser({ text }) {
       {!stateLogin && (
         <li className="nav__right-item nav__header-user">
           <Link   to="/login">
-            <div className="user-login">
+            <div className="user-login" style={{ marginLeft: "15px" }}>
   <i className="fas fa-user"></i>
             {text && <span style={{ marginLeft: "10px" }}>{text}</span>}
             </div>
@@ -61,7 +61,7 @@ export function HeaderUser({ text }) {
               />
             </div>
           </div>
-          <ul className="header__user-list">
+          <ul className="header__user-list" style={{ marginLeft: "30px", }}>
             <li
               style={{ paddingBottom: "5px", borderBottom: "1px solid #ccc" }}
             >

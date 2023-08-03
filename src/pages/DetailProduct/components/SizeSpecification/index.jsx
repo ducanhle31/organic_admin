@@ -7,7 +7,7 @@ function ImageSize({ product }) {
           {product.vender_value_image != "null" ? (
             <img
               src={`../${product.vender_value_image}`}
-              alt="Ảnh Tthông số kích thước lựa chọn"
+              alt="Chi tiết"
             />
           ) : (
             <p>Thông số sản phẩm đang được cập nhật !</p>

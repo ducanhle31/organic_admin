@@ -17,7 +17,7 @@ function NavDesktop({ total }) {
         <Link className="link-home" to="/">
   
           <p className="logo__text">
-            ORGA<span>NIC</span>
+            Orga<span>nic</span>
           </p>
         </Link>
       </div>
@@ -47,7 +47,7 @@ function NavDesktop({ total }) {
             </ul>
           </li>
             <li className="nav__center-item typeProduct">
-            <Link to="/about">GIới thiệu</Link>
+            <Link to="/about">Giới thiệu</Link>
           </li>
           <li className="nav__center-item">
             <Link to="/news">Tin Tức</Link>
@@ -72,7 +72,7 @@ function NavDesktop({ total }) {
         </li>
         <li className="nav__right-item header__cart">
           <Link  to="/cart">
-            <div className="cart">
+            <div className="cart" >
   <i className="fas fa-shopping-cart"></i>
             <span className="cart__number-product">
             {total || 0}

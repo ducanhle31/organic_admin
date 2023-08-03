@@ -12,7 +12,7 @@ export function ModalOrder({ showContent }) {
           <div className="col-lg-9 col-md-10 col-sm-9 col-11">
             <div className="modal__container">
               <div className="modal__header">
-                <h3>VLUXURY - THỜI TRANG DÀNH CHO PHÁI MẠNH</h3>
+                <h3>ORGANIC Thực phẩm hữu cơ</h3>
               </div>
               <div className="modal__code-orders">
                 <div className="modal__icon">

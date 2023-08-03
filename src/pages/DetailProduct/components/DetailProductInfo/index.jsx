@@ -173,7 +173,6 @@ function DetailProductInfo({ product, loading }) {
               {loadingBtn && <LoadingBtn />}
               {!loadingBtn && (
                 <>
-                  {" "}
                   <i className="fas fa-shopping-cart"></i>
                   <span>Thêm vào giỏ</span>
                 </>

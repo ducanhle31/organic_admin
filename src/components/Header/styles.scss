@@ -66,18 +66,18 @@ header {
 .slider-header__text {
   text-align: center;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 32px;
 }
 
 .nav-desktop {
   background-color: #fff;
-  padding: 8px 20px;
+  padding: 8px 210px;
   height: 95px;
   font-size: 16px;
   display: flex;
   justify-content: space-between;
-  text-transform: uppercase;
+
   box-shadow: 0 0 2px 0 rgb(165, 165, 165);
 }
 
@@ -89,7 +89,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+padding-left: 50px;padding-right: 50px;
   background-color: #fff !important;
 }
 
@@ -136,7 +136,7 @@ header {
 
 .logo__text {
 
-  line-height: 1;
+  line-height: 36px;
   color: #000000;
   position: relative;
   font-family: 'Rubik', sans-serif;
@@ -169,7 +169,7 @@ header {
 .nav__center-item {
   color:  #000000;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -228,7 +228,7 @@ left: 32px;
 
 .nav__right-item>a {
   display: inline-block;
-  margin: 10px 15px;
+  margin: 10px 0px;
 }
 
 span {
@@ -248,9 +248,6 @@ span {
 }
 
 .nav__center-item::after,
-.cart::after,
-.user-login::after,
-.nav__search-title::after,
 .nav__sub-item a::after,
 .nav__sub-item p::after,
 .header__user-item span::after,
@@ -278,15 +275,7 @@ span {
   bottom: 10px;
 }
 
-/* .nav__right-item::after,
-.nav__center-item::after {
-  left: 15px;
-}
-.nav__center-item:hover::after,
-.nav__right-item:hover::after {
-  left: 15px;
-} */
-/* fix loi boder phần tử thứ 5 của menu con nhỏ hơn mà chưa tìm dc lỗi */
+
 .nav__sub-item:nth-child(5) p::after {
   height: 2px;
 }
@@ -311,11 +300,7 @@ span {
   width: 0;
 }
 
-/* .nav__center-item:hover::after,
-.nav__right-item:hover::after,
-.nav-mobile__center-item a:hover::after {
-  width: calc(100% - 30px);
-} */
+
 .nav-mobile__sub-item p:hover::after,
 .nav-mobile__sub-item a:hover::after {
   width: calc(100% - 50px);

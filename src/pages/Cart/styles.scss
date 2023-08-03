@@ -148,7 +148,7 @@ td {
 .product-money,
 .product__priceTotalItem {
   font-weight: 500;
-  color: #000;
+  color: #ff0000;
 }
 .product__size {
   font-size: 12px;
@@ -225,7 +225,7 @@ tr td:nth-child(4) {
   font-size: 20px;
   line-height: 23px;
   text-align: right;
-  color: #000000;
+  color: #ff0000;
 }
 .modal__btn-checkout {
   display: flex;
@@ -235,9 +235,9 @@ tr td:nth-child(4) {
 .btn-update-to-cart,
 .btn-loading-cart {
   padding: 12px 10px;
-  background: #e6e6e6;
-  border-radius: 2px;
-  color: #000;
+  background: #05c26a;
+  border-radius: 50px;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -246,20 +246,20 @@ tr td:nth-child(4) {
   transition: linear 0.2s;
 }
 .btn-loading-cart {
-  background: #000000;
+  background:  #05c26a;
   width: 157px;
   height: 45px;
   padding: 7px 10px;
 }
 .btn-update-to-cart:hover {
-  background-color: #000;
+  background-color: #05c26a;
   color: #fff;
 }
 .btn-buys {
   padding: 12px 10px;
   color: #fff !important;
-  background: #000;
-  border-radius: 2px;
+  background:#05c26a !important ;
+  border-radius: 50px !important;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -269,8 +269,8 @@ tr td:nth-child(4) {
   transition: linear 0.2s;
 }
 .btn-buys:hover {
-  background: #e6e6e6;
-  color: #000 !important;
+  background: #049a54 !important ;
+  color: #ffffff !important;
 }
 
 .cart-empty {

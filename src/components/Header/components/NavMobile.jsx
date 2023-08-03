@@ -106,7 +106,7 @@ function NavMobile({ total }) {
         <Link className="cart" to="/cart">
           <i className="fas fa-shopping-cart"></i>
           <span>
-            <span className="cart__number-product">({total || 0})</span>
+            <span className="cart__number-product">{total || 0}</span>
             <span> </span>
           </span>
         </Link>
@@ -115,7 +115,7 @@ function NavMobile({ total }) {
         <Link className="link-home" to="/">
         
           <p className="logo__text">
-            ORGA<span>NIC</span>
+            Orga<span>nic</span>
           </p>
         </Link>
       </div>

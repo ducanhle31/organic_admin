@@ -54,7 +54,7 @@ function ModalCart() {
                     </div>
                   </div>
                   <div className="col-12 col-md-6 modal__checkout-actions-right">
-                    <h3 className="modal__total-money">Tổng : 0,000,00₫</h3>
+                    <h3 className="modal__total-money" >Tổng : 0,000,00₫</h3>
                     <div className="modal__btn-checkout">
                       <div className="btn-update-to-cart">
                         Cập nhật giỏ hàng
