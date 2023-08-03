@@ -67,12 +67,12 @@ function News() {
       <div className="container container-news">
         {loading && <Loading />}
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-4">
             {productList.length !== 0 && (
               <SellingProducts productList={productList} />
             )}
           </div>
-          <div className="col-md-9">
+          <div className="col-md-8">
             {idNewDetail.length === 0 && newsList.length !== 0 && (
               <NewsContent newsList={newsList} />
             )}
