@@ -12,23 +12,23 @@ import { checkProductCart } from "./checkProductCart";
 const BoxSupportInFoArray = [
   {
     image:
-      "../assets/image/image_product-detail/icon/pro_policy_icon1_detail.webp",
-    nameSupport: "Giao hàng tận nơi, hỗ trợ đổi trả",
+      "../assets/image/image_product-detail/icon/chinhsach_1.webp",
+    nameSupport: "Miễn phí vẫn chuyển",
   },
   {
     image:
-      "../assets/image/image_product-detail/icon/pro_policy_icon5_detail.webp",
-    nameSupport: "Đóng túi, hộp miễn phí với tất cả đơn hàng",
+      "../assets/image/image_product-detail/icon/chinhsach_2.webp",
+    nameSupport: "Miễn phí đổi - trả",
   },
   {
     image:
-      "../assets/image/image_product-detail/icon/pro_policy_icon4_detail.webp",
-    nameSupport: "Ship hàng và kiểm tra hàng tại nhà trước khi thanh toán",
+      "../assets/image/image_product-detail/icon/chinhsach_3.webp",
+    nameSupport: "Hỗ trợ nhanh chóng",
   },
   {
     image:
-      "../assets/image/image_product-detail/icon/pro_policy_icon6_detail.webp",
-    nameSupport: "Cam kết giá tốt nhất với chất lượng tốt nhất",
+      "../assets/image/image_product-detail/icon/chinhsach_4.webp",
+    nameSupport: "Ưu đãi combo",
   },
 ];
 function BoxSupportItem({ BoxSupport }) {
@@ -71,7 +71,7 @@ function ProductSize({ size, setSize }) {
 function DetailProductInfo({ product, loading }) {
   const [loadingBtn, setLoadingBtn] = useState(false);
   const [quantity, setQuantity] = useState(1);
-  const [size, setSize] = useState("48");
+  const [size, setSize] = useState("0.2kg");
   const [successAddCart, setSuccessAddCart] = useState(false);
   const cartProductArray = useSelector((state) => state.add_cart);
   const dispatch = useDispatch();
@@ -130,17 +130,11 @@ function DetailProductInfo({ product, loading }) {
             )}
           </div>
         </div>
-        {product.describe && (
-          <div className="detailProduct__describer">
-            <div className="detailProduct__describer-title">
-              Mô tả sản phẩm :
-            </div>
-            <div className="detailProduct__describer-content">
-              {product.describe?.replaceAll("<p>", "")?.replaceAll("</p>", "")}
-            </div>
-          </div>
-        )}
+    
         <div className="detailProduct__support">
+            <div className="detailProduct__support-title">
+          Thương hiệu: Đang cập nhật
+          </div>
           <div className="detailProduct__support-title">
             100% BẠN SẼ HÀI LÒNG
           </div>
@@ -157,7 +151,7 @@ function DetailProductInfo({ product, loading }) {
           </div>
         </div>
         <div className="detailProduct__user-buy">
-          {product.typeProduct != "phukien" && (
+          {product.typeProduct != "raucu" && (
             <ProductSize size={size} setSize={setSize} />
           )}
           <div className="detailProduct__quantity">

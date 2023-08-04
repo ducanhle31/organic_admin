@@ -49,9 +49,7 @@ function WarrantyPolicy() {
           </span>
           <ul>
             <li>
-            {/*   <span className="margin-top-bottom-7 fontWeight-500">
-                1.1 Điều kiện ĐỔI:
-              </span> */}
+        
               <ul className="padding-left-40">
                 <li>
                 Nếu bạn đã có tài khoản vui lòng nhập thông tin tên đăng nhập là email và mật khẩu vào mục đã có tài khoản trên hệ thống
@@ -118,10 +116,19 @@ function SizeSpecification({ product }) {
         </div>
         <div className="tab-content">
           {tab == tabs[0] ? (
-            <ImageSize product={product} />
+            <div className="detailProduct__describer">
+          {/*   <div className="detailProduct__describer-title">
+              Mô tả sản phẩm :
+            </div> */}
+            <div className="detailProduct__describer-content">
+              {product.describe?.replaceAll("<p>", "")?.replaceAll("</p>", "")}
+            </div>
+          </div>
+      
           ) : (
             <WarrantyPolicy />
           )}
+            
         </div>
       </div>
     </section>
