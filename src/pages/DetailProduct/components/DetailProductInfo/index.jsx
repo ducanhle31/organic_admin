@@ -151,9 +151,9 @@ function DetailProductInfo({ product, loading }) {
           </div>
         </div>
         <div className="detailProduct__user-buy">
-          {product.typeProduct != "raucu" && (
+        {/*   {product.typeProduct != "raucu" && (
             <ProductSize size={size} setSize={setSize} />
-          )}
+          )} */}
           <div className="detailProduct__quantity">
             <div className="detailProduct__quantity-title">Số lượng :</div>
             <ProductQuantityInput

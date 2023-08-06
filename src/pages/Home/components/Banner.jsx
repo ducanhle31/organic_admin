@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { totalTimeCurrent, totalTimeEnd } from "./constanst";
 
 function TimeSale() {
-  const initTimeSale = totalTimeEnd(totalTimeCurrent(), 5, 2);
+/*   const initTimeSale = totalTimeEnd(totalTimeCurrent(), 5, 2);
   const [timeSale, setTimeSale] = useState(initTimeSale);
 
   useEffect(() => {
@@ -14,7 +14,22 @@ function TimeSale() {
       clearTimeout(id);
     };
   }, [timeSale]);
+ */
+    // Change the start date and total sale days here
+  const startDate = 8;
+  const totalSaleDays = 2;
+  const initTimeSale = totalTimeEnd(totalTimeCurrent(), startDate, totalSaleDays);
+  const [timeSale, setTimeSale] = useState(initTimeSale);
 
+  useEffect(() => {
+    const id = setTimeout(() => {
+      // Change the start date and total sale days here too
+      setTimeSale(totalTimeEnd(totalTimeCurrent(), startDate, totalSaleDays));
+    }, 1000);
+    return () => {
+      clearTimeout(id);
+    };
+  }, [timeSale]);
   return (
     <div className="banner__time">
       <div className="banner__time-header">

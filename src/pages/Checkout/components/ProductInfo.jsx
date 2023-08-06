@@ -11,7 +11,7 @@ export function ProductInfo({ product }) {
       </div>
       <div className="col-6 info-product">
         <div className="product__name">{product.nameProduct}</div>
-        <div className="product__size">{product.size}</div>
+      {/*   <div className="product__size">{product.size}</div> */}
       </div>
       <div className="col-3 info-price">
         <div className="product__price">
