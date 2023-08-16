@@ -128,7 +128,7 @@ function Register({ setCheckAuth, setCheckRegister }) {
       <div className="container">
         <div className="container__content"></div>
         <div className="content__title">
-          <h1>Đăng Kí</h1>
+          <h1>Đăng Ký</h1>
         </div>
         <form action="">
           <div className="input-userName">
@@ -213,7 +213,7 @@ function Register({ setCheckAuth, setCheckRegister }) {
             <input
               className="btn btn__register"
               type="button"
-              value="ĐĂNG KÍ"
+              value="ĐĂNG KÝ"
               onClick={handleSubmit}
             />
           )}

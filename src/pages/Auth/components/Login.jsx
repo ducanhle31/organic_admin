@@ -190,7 +190,7 @@ function Login({ switchPage, setCheckAuth, setCheckLogin }) {
           <SignInGoogleFaceBook switchPage={switchPage} />
         </div>
         <div className="create-account" onClick={() => setCheckAuth("Đăng Kí")}>
-          <span className="link-convert-html create-account-link">Đăng kí</span>
+          <span className="link-convert-html create-account-link">Đăng ký</span>
         </div>
       </div>
     </div>

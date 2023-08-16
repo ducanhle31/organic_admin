@@ -1724,6 +1724,7 @@ div[class="featured-products__list"]::after {
     height: 360px;
     width: 360px;
   }
+  .banner {flex-direction: row-reverse }
 }
 
 /* mobile */
@@ -1736,7 +1737,10 @@ div[class="featured-products__list"]::after {
   .nav__center-list {
     display: none;
   }
-
+    .banner {
+  display: flex;
+    }
+  
   .banner__time-title {
     font-size: 20px;
     // display: none;
@@ -1890,9 +1894,29 @@ div[class="featured-products__list"]::after {
   .footer__contact {
     padding-bottom: 0;
   }
+.banner__time{top:15%;align-items: center;left: 25%;}
+    .banner .banner-img{ padding-top: 100px;}
 }
 
 @media (max-width: 479px) {
+  .banner__time {
+      top: 15%;
+      align-items: center;
+      left: 25%;
+    }
+  
+    .banner .banner-img {
+      padding-top: 100px;
+    }
+  .banner__time {
+      top: 15%;
+      align-items: center;
+      left: 25%;
+    }
+  
+    .banner .banner-img {
+      padding-top: 100px;
+    }
   .featured-products__list {
     letter-spacing: 0;
   }
@@ -1970,12 +1994,33 @@ div[class="featured-products__list"]::after {
   .famousPeople__image::before {
     background-color: transparent;
   }
+        .banner__time {
+          top: 15%;
+          align-items: center;
+          left: 5%;
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .banner .banner-img {
+          padding-top: 100px;
+        }
 }
 
 @media (max-width: 413px) {
   .banner__time {
-    left: 4.2%;
-  }
+      top: 15%;
+      align-items: center;
+      left: 5%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .banner .banner-img {
+      padding-top: 100px;
+          left: 5%;
+    }
+
 
   .banner__time-event {
     /* margin-left: 50px; */

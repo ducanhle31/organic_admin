@@ -71,6 +71,15 @@ h1 {
   line-height: 1.5;
 }
 
+.new-products .featured-products__item{
+  width: 226px;height: 290px;
+
+}
+.new-products .featured-products__item .product-card{ height: 300px;margin-left: -4px;}
+.new-products .featured-products__item .product-card .card-content{margin-top: -50px;}
+.new-products .featured-products__item .product-card .card-banner img {
+  width: 204px;
+} 
 .article-date {
   margin: 10px 0;
 }

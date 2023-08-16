@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import homeApi from "../../../api/homeApi";
 import InterfaceHome from "../feature/InterfaceHome";
@@ -33,7 +34,7 @@ function AdminContent() {
   return (
     <div className="container-fluid admin-content">
       <div className="row">
-        <div className="col-12 col-sm-4 col-md-3">
+        <div className="col-12 col-sm-4 col-md-2">
           <AdminMenu
             tabsMenu={tabsMenu}
             tab={tab}
@@ -43,7 +44,7 @@ function AdminContent() {
             isChange={isChange}
           />
         </div>
-        <div className="col-12 col-sm-8 col-md-9">
+        <div className="col-12 col-sm-8 col-md-10">
           {tab == tabsMenu[0] && (
             <InterfaceHome
               tab={tab}

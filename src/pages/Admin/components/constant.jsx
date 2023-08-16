@@ -1,9 +1,9 @@
 export const vender_value_imageObj = {
-  vest: "../assets/image/image_product-detail/vest/thongso_vest1.jpg",
-  somi: "../assets/image/image_product-detail/vendor_value_somi.jpg",
-  quanau: "../assets/image/image_product-detail/vendor_value_quanau.jpg",
-  giay: "../assets/image/image_product-detail/vendor_value_giay.jpg",
-  phukien: "null",
+  raucu: "../../../../public/assets/image/news/abc.jpg",
+  hoaqua: "../../../../public/assets/image/news/bcd.jpg",
+  cacloaihat: "../../../../public/assets/image/news/untitled-5.webp",
+  thucphamtuoisong: "../../../../public/assets/image/offer/category_protein.jpg",
+
 };
 
 export function getListProduct(Data) {

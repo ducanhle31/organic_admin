@@ -77,7 +77,8 @@
   display: flex;
   align-items: center;
   color: #fff;
-  background-color: rgb(83, 82, 82);
+  background-color: #05c26a;
+  font-size: 24px;
   span {
     color: rgb(232, 214, 20);
   }
@@ -119,7 +120,7 @@
   margin-bottom: 40px;
   li {
     padding: 20px;
-    border-bottom: dashed 1px rgb(142, 139, 139);
+    border-bottom: dashed 1px #05c26a;
   }
   li:nth-child(2):hover,
   li:nth-child(3):hover,
@@ -131,12 +132,12 @@
   > li:first-child {
     border-bottom: none;
     color: #fff;
-    background-color: rgb(73, 73, 73);
+    background-color:#05c26a;
     font-size: 20px;
   }
   border-radius: 10px;
   overflow: hidden;
-  border: solid 1px rgb(142, 139, 139);
+  border: solid 1px #05c26a;
 }
 .menu-parent-admin {
   width: 100%;
@@ -144,7 +145,7 @@
   li:first-child {
     background-color: unset !important;
 
-    border-bottom: dashed 1px rgb(142, 139, 139) !important;
+    border-bottom: dashed 1px #05c26a !important;
     font-size: unset !important;
   }
   li:hover {
@@ -169,7 +170,7 @@
   margin-bottom: 60px;
   border-radius: 10px;
   overflow: hidden;
-  border: solid 1px rgb(142, 139, 139);
+  border: solid 1px #05c26a;
   min-height: 86vh;
   .loading {
     top: 70px;
@@ -179,7 +180,7 @@
     padding: 20px;
     margin-bottom: 40px;
     color: #fff;
-    background-color: rgb(83, 82, 82);
+    background-color: #05c26a;
   }
 }
 .admin-container-content {
@@ -284,7 +285,7 @@
   text-align: center;
 }
 .btn-active {
-  background-color: #000;
+  background-color:#049a54;
   color: #fff;
 }
 
