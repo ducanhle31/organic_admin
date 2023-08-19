@@ -14,14 +14,13 @@ export const config = {
   storageBucket: "demooo-f13d2.appspot.com",
   messagingSenderId: "50484183725",
   appId: "1:50484183725:web:e8ede37a3e19a82188fc24" */
-    apiKey: "AIzaSyCLALTgu6fQnLgw0TiLCewgMiTmxU2Y5T4",
-  authDomain: "demoa-9328e.firebaseapp.com",
-  databaseURL: "https://demoa-9328e-default-rtdb.firebaseio.com",
-  projectId: "demoa-9328e",
-  storageBucket: "demoa-9328e.appspot.com",
-  messagingSenderId: "715363967102",
-  appId: "1:715363967102:web:bc226efb7b8f53c3c6382f",
-  measurementId: "G-JE6K9KN72W"
+   apiKey: "AIzaSyA9IOswBePIwJW15iSEGscvQyvOn-pGJPc",
+  authDomain: "formal-truth-395909.firebaseapp.com",
+  databaseURL: "https://formal-truth-395909-default-rtdb.firebaseio.com",
+  projectId: "formal-truth-395909",
+  storageBucket: "formal-truth-395909.appspot.com",
+  messagingSenderId: "381084506082",
+  appId: "1:381084506082:web:6aa95b9c3b5943146a4bbb"
 };
 firebase.initializeApp(config);
 
