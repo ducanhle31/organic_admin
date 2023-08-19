@@ -7,13 +7,21 @@ import { getAuth } from "firebase/auth";
 
 // Configure Firebase.
 export const config = {
- apiKey: "AIzaSyC9Vc8dKJuEqq6kS8_tcZ96lULJHaOBDAM",
+ /* apiKey: "AIzaSyC9Vc8dKJuEqq6kS8_tcZ96lULJHaOBDAM",
   authDomain: "demooo-f13d2.firebaseapp.com",
   databaseURL: "https://demooo-f13d2-default-rtdb.firebaseio.com",
   projectId: "demooo-f13d2",
   storageBucket: "demooo-f13d2.appspot.com",
   messagingSenderId: "50484183725",
-  appId: "1:50484183725:web:e8ede37a3e19a82188fc24"
+  appId: "1:50484183725:web:e8ede37a3e19a82188fc24" */
+    apiKey: "AIzaSyCLALTgu6fQnLgw0TiLCewgMiTmxU2Y5T4",
+  authDomain: "demoa-9328e.firebaseapp.com",
+  databaseURL: "https://demoa-9328e-default-rtdb.firebaseio.com",
+  projectId: "demoa-9328e",
+  storageBucket: "demoa-9328e.appspot.com",
+  messagingSenderId: "715363967102",
+  appId: "1:715363967102:web:bc226efb7b8f53c3c6382f",
+  measurementId: "G-JE6K9KN72W"
 };
 firebase.initializeApp(config);
 
