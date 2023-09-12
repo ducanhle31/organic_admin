@@ -97,7 +97,7 @@ function ModalCart() {
                       </div>
                     </div>
                     <div className="product__trademark">
-                      Thương hiệu : Vluxury
+                      Thương hiệu : V
                     </div>
                     <div className="product__cart-mobile">
                       <div className="product__quantity-mobile">
